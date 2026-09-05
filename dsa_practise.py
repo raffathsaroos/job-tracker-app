@@ -1,3 +1,5 @@
+import json
+
 skills =["python","sql","react","docker","lanchain"]
 print("the main skill is: ", skills[0])
 
@@ -43,5 +45,10 @@ while count <= 3:
     
     
 
+job_dict = {"company": "Goo", "title": "fullstack Developer", "status": "just_applied"}
+json_data = json.dumps(job_dict)
+
+print("JSON Format String:", json_data)
+print("Data Type:", type(json_data))  
     
 
