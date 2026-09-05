@@ -39,9 +39,9 @@ for x in skills:
     print(f"- {x}")
 
 count = 1
-while count <= 3:
+while count <= 6:
     print(f"X {count}")
-    count += 1
+    count += 6
     
     
 
